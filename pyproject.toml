@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "snake-package"
+version = "1.0.0"
+description = "Ein schnelles und unterhaltsames Spiel"
+authors = ["Anwar"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pygame = "^2.6.1"
+numpy = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
